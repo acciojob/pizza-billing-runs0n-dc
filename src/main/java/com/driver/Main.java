@@ -10,8 +10,8 @@ public class Main {
       System.out.println(dp.getBill());
 
     Pizza p = new Pizza(false);
-   // p.addExtraCheese();
-  //  p.addExtraToppings();
+    p.addExtraCheese();
+    p.addExtraToppings();
     p.addTakeaway();
     System.out.println(p.getBill());
   }
