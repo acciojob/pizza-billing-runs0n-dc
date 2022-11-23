@@ -28,12 +28,14 @@ public class Pizza {
 
     public void addExtraCheese(){
         // your code goes here
+        if(ec==0){
         this.ec+=80;
         this.price+=80;
-        }
+        }}
 
     public void addExtraToppings(){
         // your code goes here
+        if(top==0){
         if(isVeg){
             this.top+=70;
             this.price+=70;
@@ -42,13 +44,14 @@ public class Pizza {
             this.top+=120;
             this.price+=120;
         }
-    }
+    }}
 
     public void addTakeaway(){
         // your code goes here
+        if(ta==0){
         this.ta=20;
         this.price+=20;
-    }
+    }}
     ///Base Price Of The Pizza: 300
     //Extra Cheese Added: 80
     //Extra Toppings Added: 70
